@@ -1,0 +1,13 @@
+train: D:/ThiGiacMayTinh/CV-main/Dataset with augmentation/train/images
+val: D:/ThiGiacMayTinh/CV-main/Dataset with augmentation/valid/images
+test: D:/ThiGiacMayTinh/CV-main/Dataset with augmentation/test/images
+
+nc: 9
+names: ['Early Blight', 'Healthy', 'Late Blight', 'Leaf Miner', 'Leaf Mold', 'Mosaic Virus', 'Septoria', 'Spider Mites', 'Yellow Leaf Curl Virus']
+
+roboflow:
+  workspace: tdg-cikuh
+  project: tdg-vq3xp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tdg-cikuh/tdg-vq3xp/dataset/2
